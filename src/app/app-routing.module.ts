@@ -11,6 +11,18 @@ const routes: Routes = [
     path: 'monitoramento',
     loadChildren: () => import('./page/monitoramento/monitoramento.module').then( m => m.MonitoramentoPageModule)
   },
+  {
+    path: 'receita',
+    loadChildren: () => import('./page/receita/receita.module').then( m => m.ReceitaPageModule)
+  },
+  {
+    path: 'despesa',
+    loadChildren: () => import('./page/despesa/despesa.module').then( m => m.DespesaPageModule)
+  },
+  {
+    path: 'transferencia',
+    loadChildren: () => import('./page/transferencia/transferencia.module').then( m => m.TransferenciaPageModule)
+  },
 ];
 
 @NgModule({

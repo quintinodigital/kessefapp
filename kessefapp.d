@@ -12,3 +12,6 @@
 
             - Configurar tela de Monitoramento
             - Configurar fonte padrao do sistema
+
+            - Configurar redirecionamento de telas para os botoes
+            - Criacao do container com dados de transacoes

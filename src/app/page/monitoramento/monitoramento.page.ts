@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-monitoramento',
@@ -13,7 +14,7 @@ export class MonitoramentoPage implements OnInit {
       cotacao: "0.053205 BTC",
       valor: "R$ 5.503,30",
       variacao: "2,59%",
-      isAlta: true
+      isAlta: false
     },
     {
       nome: "Cardano",
@@ -34,15 +35,20 @@ export class MonitoramentoPage implements OnInit {
       cotacao: "53.453 USDT",
       valor: "R$ 1.345,00",
       variacao: "4,35%",
-      isAlta: false
+      isAlta: true
     }
   ];
 
-  constructor() { 
+  constructor(
+    private router: Router
+  ) { 
     document.body.setAttribute("color-theme", "light");
   }
 
-  ngOnInit() {
+  ngOnInit() { }
+
+  public redirecionarTelaReceita() {
+    this.router.navigate(["receita"]);
   }
 
 }
