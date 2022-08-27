@@ -2,6 +2,25 @@ ion-header {
     ion-toolbar {
         color: white;
         --background: #6236ff;
+        .notification {
+            span {
+                background-color: #F5576C;
+                border-radius: 50%;
+                width: 14px;
+                height: 14px;
+                position: absolute;
+                top: 10%;
+                right: -30%;
+                p {
+                    font-size: 8px;
+                    margin-top: 3px;
+                    margin-left: 1px;
+                }
+            }
+        }
+    }
+    ion-avatar {
+        margin-top: -30px;
     }
 }
 
