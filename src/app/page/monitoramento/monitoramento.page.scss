@@ -4,13 +4,13 @@ ion-header {
         --background: #6236ff;
         .notification {
             span {
-                background-color: #F5576C;
+                background-color: #ff396f;
                 border-radius: 50%;
                 width: 14px;
                 height: 14px;
                 position: absolute;
-                top: 10%;
-                right: -30%;
+                top: 1%;
+                right: -20%;
                 p {
                     font-size: 8px;
                     margin-top: 3px;
@@ -28,7 +28,7 @@ ion-content {
     --color: white;
     --background: #ededf5;
     .container {
-        background: linear-gradient(360deg, #6c41ff, #6236ff);
+        background: linear-gradient(360deg, #8867ff, #6236ff);
         display: flex;
         flex-direction: column;
         align-items: center;
