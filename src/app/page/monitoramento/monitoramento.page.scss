@@ -15,6 +15,7 @@ ion-header {
                     font-size: 8px;
                     margin-top: 3px;
                     margin-left: 1px;
+                    color: white;
                 }
             }
         }
@@ -112,6 +113,50 @@ ion-content {
                         }
                     }
                 }
+            }
+        }
+    }
+    .watchlist {
+        ion-slides {
+            ion-slide {
+                ion-card {
+                    margin: 3px;
+                    width: 30%;
+                    box-shadow: none !important;
+                    border-radius: 10px;
+                    padding: 10px;
+                    .header {
+                            margin-left: 4%;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            ion-icon {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                    ion-label {
+                        display: flex;
+                        justify-content: start;
+                        align-items: center;
+                        margin-top: 20px;
+                        text-align: right;
+                        margin-left: 4%;
+                        margin-right: 2%;
+                        font-size: 14px;
+                        color: #130923;
+                        ion-badge {
+                            display: flex;
+                            justify-content: start;
+                            align-items: center;
+                            border-radius: 10px;
+                            width: 55px;
+                            span {
+                                font-size: 10px;
+                                font-weight: 500;
+                            }
+                        }
+                    }
             }
         }
     }

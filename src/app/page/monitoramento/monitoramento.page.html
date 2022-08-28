@@ -27,7 +27,7 @@
     <span>Current Balance</span>
     <ion-label>R$ 25.6250,00</ion-label>
     <ion-text>
-      <ion-icon name="trending-up-outline" color="light" style="margin-right: 6px;"></ion-icon>
+      <ion-icon name="trending-up-outline" style="margin-right: 6px;"></ion-icon>
       0.053205 BTC
     </ion-text>
 
@@ -90,5 +90,70 @@
       </ion-grid>
     </ion-card>
   </div>
+
+  <div class="titulo">
+    <h3>Watchlist</h3>
+    <ion-label>View All</ion-label>
+  </div>
+
+  <div class="watchlist">
+
+    <ion-slides [options]="option">
+
+      <ion-slide>
+
+        <ion-card>
+          <div class="header">
+            <ion-text>BTC/USD</ion-text>
+            <ion-icon name="ellipsis-vertical"></ion-icon>
+          </div>
+          <ion-label>R$ 38.509,44</ion-label>
+          <ion-label>
+              <ion-badge color="success">
+                <ion-icon name="arrow-up-outline"></ion-icon>
+                <span>6.78%</span>
+              </ion-badge>
+          </ion-label>
+        </ion-card>
+
+        <ion-card>
+          <div class="header">
+            <ion-text>BTC/USD</ion-text>
+            <ion-icon name="ellipsis-vertical"></ion-icon>
+          </div>
+          <ion-label>R$ 1.462,61</ion-label>
+          <ion-label>
+              <ion-badge style="background-color: #ff396f;">
+                <ion-icon name="arrow-down-outline"></ion-icon>
+                <span>6.78%</span>
+              </ion-badge>
+          </ion-label>
+        </ion-card>
+
+        <ion-card>
+          <div class="header">
+            <ion-text>BTC/USD</ion-text>
+            <ion-icon name="ellipsis-vertical"></ion-icon>
+          </div>
+          <ion-label>R$ 38.509,44</ion-label>
+          <ion-label>
+              <ion-badge color="success">
+                <ion-icon name="arrow-up-outline"></ion-icon>
+                <span>6.78%</span>
+              </ion-badge>
+          </ion-label>
+        </ion-card>
+
+      </ion-slide>
+
+    </ion-slides>
+
+  </div>
+
+  <div class="titulo">
+    <h3>Transactions</h3>
+    <ion-label>View All</ion-label>
+  </div>
+
 
 </ion-content>

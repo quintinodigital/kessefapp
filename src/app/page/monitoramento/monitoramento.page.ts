@@ -39,6 +39,14 @@ export class MonitoramentoPage implements OnInit {
     }
   ];
 
+  public option = {
+    slidesPerView: 0.7,
+    // centeredSlides: true,
+    // loop: true,
+    // spaceBetween: 0,
+    // autoplay: true
+  };
+
   constructor(
     private router: Router
   ) { 
