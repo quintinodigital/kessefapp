@@ -15,3 +15,7 @@
 
             - Configurar redirecionamento de telas para os botoes
             - Criacao do container com dados de transacoes
+
+        - KESSEFAPP0129082022FEATURE
+
+            - Configurar gráfico (ChartJS)
